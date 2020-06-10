@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body class="app">
-    <header class="main-header">
+    <header class="main-header mb-5 text-center">
         <div class="container">
             <h1>My website</h1>
             <p>First project with Laravel</p>
@@ -19,7 +19,7 @@
         @yield('content')
     </main>
 
-    <footer class="main-footer">
+    <footer class="main-footer text-right">
         <div class=container>
             <p>Made by Thang</p>
         </div>
