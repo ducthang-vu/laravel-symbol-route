@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="public/css/app.css">
     <title>Document</title>
 </head>
-<body>
-    <header>
+<body class="app">
+    <header class="main-header">
         <h1>My website</h1>
         <p>First project with Laravel</p>
     </header>
     
-    <main>
+    <main class="main-main">
         @yield('content')
     </main>
 
-    <footer>
+    <footer class="main-footer">
         <p>Made by Thang</p>
     </footer>
 </body>
