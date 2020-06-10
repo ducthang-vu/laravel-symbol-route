@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {   
     public function index() {
-        $date = getdate();
+        $date = date('d-m-y');
         return view('home', ['date' => $date]);
     }
 }
