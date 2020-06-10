@@ -2,10 +2,11 @@
 
 @section('content')
     <main>
-        <h2> Welcome to my website homepage!</h2>
+        <div class="container">
+            <h2> Welcome to my website homepage!</h2>
 
-        <p>Today is {{$date}} </p>
-        <p>The info page is: /info</p>
-
+            <p>Today is {{$date}} </p>
+            <p>The info page is: /info</p>
+        </div>
     </main> 
 @endsection

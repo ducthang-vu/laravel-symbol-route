@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="public/css/app.css">
+<link rel="stylesheet" href="{{asset('css/app.css')}}">
     <title>Document</title>
 </head>
 <body class="app">
     <header class="main-header">
-        <h1>My website</h1>
-        <p>First project with Laravel</p>
+        <div class="container">
+            <h1>My website</h1>
+            <p>First project with Laravel</p>
+        </div>
     </header>
     
     <main class="main-main">
@@ -18,7 +20,9 @@
     </main>
 
     <footer class="main-footer">
-        <p>Made by Thang</p>
+        <div class=container>
+            <p>Made by Thang</p>
+        </div>
     </footer>
 </body>
 </html>
